@@ -104,7 +104,7 @@ Aprovados
  [13. 21. 24. 18. 61.]
  [31. 21. 20. 26. 18.]]
 ```
-<br>Gráfico de pizza obtido atráves dos dados
+<br>Gráfico de pizza obtido atráves dos dados (Azul aprovados, LARANJA reprovados)
 
 ![Gráfico](https://github.com/jorgelgf/ML/blob/master/SOM/img/download.png)
  
@@ -115,6 +115,7 @@ Aprovados
 ## Conclusão<br>
 
 <p align="justify">
+ Após a utilização do código pode-se verificar que existe ao menos dois grupos com probabilidade de 100% de aprovação assim como também alguns grupos em que possuem uma probabilidade acima dos 50% de reprovação. Com essas informações em mãos é possível efetuar ações com a finalidade de reverter a situação dos alunos com risco de reprovação.
  
 </p>
  
