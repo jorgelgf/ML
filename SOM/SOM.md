@@ -74,7 +74,7 @@ MContT = np.zeros((tamanhoXdaRede,tamanhoYdaRede))
 cont = 0; 
 for x in X_train: 
   pos = som.winner(x)
-  if (Y_train[cont] >= 1): #Aprovado 
+  if (Y_train[cont] <= 1): #Aprovado 
     MContAp[pos] += 1
   MContT[pos] += 1
   cont= cont+1
@@ -92,17 +92,17 @@ print(MContAp)
 
 ```py
 Total:
-[[ 26.  31.  28.  16.  48.]
- [ 28.  21.  23.  27.  26.]
- [ 32.  19.  12.  62.  63.]
- [ 13.  23.  37.  51. 219.]
- [ 33.  26.  28.  33.  23.]]
+[[ 38.  22.  22.  64.  43.]
+ [ 23.  22.  17.  26. 202.]
+ [ 34.  26.  36.  23.  57.]
+ [ 30.  36.  15.  42.  29.]
+ [ 23.  10.  24.  19.  65.]]
 Aprovados
-[[24. 30. 26. 15. 38.]
- [25. 20. 21. 20. 17.]
- [31. 19.  8. 47. 45.]
- [13. 21. 24. 18. 61.]
- [31. 21. 20. 26. 18.]]
+[[33. 18. 15. 44. 15.]
+ [21. 16. 10. 14. 57.]
+ [31. 24. 26. 20. 36.]
+ [26. 28. 15. 36. 21.]
+ [21. 10. 23. 19. 60.]]
 ```
 <br>Gráfico de pizza obtido atráves dos dados (Azul aprovados, LARANJA reprovados)
 
@@ -115,7 +115,7 @@ Aprovados
 ## Conclusão<br>
 
 <p align="justify">
- Após a utilização do código pode-se verificar que existe ao menos dois grupos com probabilidade de 100% de aprovação assim como também alguns grupos em que possuem uma probabilidade acima dos 50% de reprovação. Com essas informações em mãos é possível efetuar ações com a finalidade de reverter a situação dos alunos com risco de reprovação.
+ Após a utilização do código pode-se verificar que existe ao menos três grupos com probabilidade de 100% de aprovação assim como também alguns grupos em que possuem uma probabilidade acima dos 50% de reprovação. Com essas informações em mãos é possível efetuar ações com a finalidade de reverter a situação dos alunos com risco de reprovação.
  
 </p>
  
