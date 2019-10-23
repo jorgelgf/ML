@@ -55,11 +55,11 @@ Código abaixo contendo as configurações de treinamento da rede.
 # Training the SOM
 tamanhoXdaRede =5; 
 tamanhoYdaRede = 5; 
+
 quantidadeCaracteristicas = col
 from minisom import MiniSom
-som = MiniSom(x = tamanhoXdaRede, y = tamanhoYdaRede, input_len = 20, sigma = 1.0, learning_rate = 0.5)
+som = MiniSom(x = tamanhoXdaRede, y = tamanhoYdaRede, input_len = 20, sigma = 1.0, learning_rate = 0.3)
 som.pca_weights_init(X_train)
-
 ```
 <br>Montando matriz de aprovados e reprovados pós treinamento, código abaixo.
 <br>
@@ -92,24 +92,24 @@ print(MContAp)
 
 ```py
 Total:
-[[ 36.  28.  67. 226.  64.]
- [ 19.  30.  46.  66.  21.]
- [ 25.  32.  20.  30.  26.]
- [ 22.  14.  13.  22.  29.]
- [ 18.  12.  18.  27.  37.]]
+[[ 26.  31.  28.  16.  48.]
+ [ 28.  21.  23.  27.  26.]
+ [ 32.  19.  12.  62.  63.]
+ [ 13.  23.  37.  51. 219.]
+ [ 33.  26.  28.  33.  23.]]
 Aprovados
-[[ 16.  15.  38. 198.  52.]
- [  7.  16.  28.  42.  12.]
- [  8.  14.   8.  10.  12.]
- [ 11.   2.   6.   6.  13.]
- [  7.   2.   3.   2.  11.]]
+[[24. 30. 26. 15. 38.]
+ [25. 20. 21. 20. 17.]
+ [31. 19.  8. 47. 45.]
+ [13. 21. 24. 18. 61.]
+ [31. 21. 20. 26. 18.]]
 ```
 <br>Gráfico de pizza obtido atráves dos dados
 
-![Alt Text](https://github.com/{user}/{repo}/raw/{branch}/path/to/image.gif)
+![Gráfico](https://github.com/jorgelgf/ML/blob/master/SOM/img/download.png)
  
  #### Link para código fonte:<br>
-<a href="https://colab.research.google.com/drive/1rDdSCldgDo7eVW3qpJv2bLlNuAcICZ0I#scrollTo=_HE3vh8Hn7uS">Clique aqui</a> <br><br>
+<a href="https://colab.research.google.com/drive/1ROlZfxLZprMUYUhli91bPciYnXAnV9u6#scrollTo=aRQLCTZKDhFo">Clique aqui</a> <br><br>
  
  
 ## Experimentos<br>
