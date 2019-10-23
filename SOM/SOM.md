@@ -118,5 +118,7 @@ Aprovados
  Após a utilização do código pode-se verificar que existe ao menos dois grupos com probabilidade de 100% de aprovação assim como também alguns grupos em que possuem uma probabilidade acima dos 50% de reprovação. Com essas informações em mãos é possível efetuar ações com a finalidade de reverter a situação dos alunos com risco de reprovação.
  
 </p>
- 
+ ## Referências<br>
+ https://medium.com/neuronio-br/descobrindo-som-uma-rede-neural-com-aprendizado-não-supervisionado-f22bc1e55eca	
+
 
