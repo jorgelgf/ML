@@ -4,7 +4,7 @@
 ## Introdução
 <p align="justify">
 O presente relatório visa identificar a possibilidade de aprovação ou reprovação da disciplina de LOP por meio de um banco de dados contendo
-informações de atividades submetidas.<p align="justify">Para isso, foi utilizado a linguagem de programação python para desenvolver os códigos e dentro dessa linguagem a ferramenta escolhida foi uma Rede Neural de aprendizado não supervisionado (SOM).
+informações de atividades submetidas. Para isso, foi utilizado a linguagem de programação python para desenvolver os códigos e dentro dessa linguagem a ferramenta escolhida foi uma Rede Neural de aprendizado não supervisionado (SOM).
  
 ## Metodologia<br> 
 <p align="justify">
