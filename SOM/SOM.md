@@ -13,7 +13,7 @@ informações de atividades submetidas. Para isso, foi utilizado a linguagem de 
  Essas saídas são denominadas de map (ou feauture map).<br>
 Essa rede possuí um sistema que é baseado em aprendizagem competitiva. Os neurônios competem na busca de responder (quem será ativado) através de um conjunto de entradas, o neurônio vencedor será chamado de winner.
  
-## Primeira etapa: Coleta dos dados
+## Coleta dos dados
 A base de dados foi obtida da turma de Lógica de Programação da Escola de Ciência e Tecnologias da UFRN (2017.1 até 2019.1).
 O banco de dados contém atividades submetidas ao longo de 21 semanas.
 <br>
