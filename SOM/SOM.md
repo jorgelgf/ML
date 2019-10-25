@@ -1,6 +1,6 @@
 # SOM - Self-Organizing Map
 ### JORGE LUÍS GURGEL FERNANDES <br>
-### SEVERINO MIGUEL DO NASCIMENTO NETO 
+### SEVERINO MIGUEL DO NASCIMENTO NETO <br><br>
  
 ## Introdução
 <p align="justify">
